@@ -1,1 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+/* контейнер */
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  padding: 20px 0;
+  background: white;
+}
+
+/* выравнивание */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* логотип */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* снежинка */
+.logo img {
+  width: 20px;
+}
+
+/* меню */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* ссылки */
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
